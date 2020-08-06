@@ -1,0 +1,33 @@
+.nav{
+    grid-area: n;
+    background-color: gold;
+    padding: 20px;
+}
+
+.item a{
+    text-decoration: none;
+}
+.item a.active{
+    color: blue;
+}
+.itemSettings{
+    margin-top: 20px;
+
+}
+
+.itemFriends{
+   margin-top: 20px;
+    height: 200px;
+}
+.itemFriend{
+    height: 100px;
+    display: inline-block;
+    width: 50px
+}
+.itemFriend img{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
